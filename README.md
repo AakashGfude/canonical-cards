@@ -1,7 +1,15 @@
-# Getting Started with Create React App
+# Canonical Web Developer Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This project reproduces the designs in the assignment.
 
+The assignment fulfills the following requirements:
+
+    1. You must use Vanilla framework: vanillaframework.io/docs  
+    2. You must pull the data from the WordPress API: people.canonical.com/~anthonydillon/wp-json/wp/v2/posts.json 
+
+For the Vanilla Framework, I tried out react-components: https://github.com/canonical/react-components . And have used the `Card` component in this project.
+
+To run the application, run `npm install` to install the dependencies. Then run `npm start` to start the application. The application will be available at http://localhost:3000.
 ## Available Scripts
 
 In the project directory, you can run:
