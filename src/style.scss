@@ -1,0 +1,85 @@
+// Import the theme
+@import 'vanilla-framework';
+@include vanilla;
+
+// Optionally override some settings
+$color-brand: #ffffff;
+
+// Add theme if applicable
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.p-card {
+    width: 20%;
+    margin: 20px;
+    padding: 0px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0.1em 0.1em 0.5em #8080808f;
+    border-radius: 0.2em;
+    border: none;
+
+    img {
+        max-height: unset;
+    }
+
+    .p-card__content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        font-weight: 500;
+        color: #666;
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    section {
+        border-top: 1px dotted #d9d9d9;
+        margin: 0 .5rem;
+        padding: 1rem .5rem .5rem;
+        height: 100%;
+    }
+
+    .p-heading--4 {
+        font-weight: 500;
+    }
+    
+    .p-heading--4, .p-card__author {
+        color: #61BADA;
+    }
+    
+    .p-card__header {
+        border-radius: 2px;
+        border-bottom: 0px;
+        padding: 1rem 1rem .5rem;
+    }
+    
+    .p-card__header{
+        &.highlight--canonical-announcements {
+            border-top:3px solid #ff8936
+        }
+        &.highlight--cloud-and-server {
+            border-top:3px solid #a87ca0
+        }
+        &.highlight--people-and-culture {
+            border-top: 3px solid #666;
+        }
+    }
+    
+    .p-card__footer {
+        border-top: 1px dotted #d9d9d9;
+        font-size: .875rem;
+        margin: auto .5rem 0;
+        margin-bottom: 0px;
+        max-width: inherit;
+        padding: 1rem .5rem;
+        border-top: 1px dotted #d9d9d9;
+        text-align: left;
+    }
+    
+}
