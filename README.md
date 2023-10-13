@@ -27,11 +27,6 @@ You may also see any lint errors in the console.
 Builds css files from scss files. This is a custom script that is not part of create-react-app.\  
 It is defined in package.json. It can be run manually with `npm run build-css`.
 
-### `watch-css`
-
-Watches scss files for changes and builds css files from them. This is a custom script that is not part of create-react-app.\ 
-It is defined in package.json. It can be run manually with `npm run watch-css`.
-
 ### `npm run dev`
 
 Runs the app in the development mode. Runs `watch-css` and `start` concurrently.\
